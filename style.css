@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;}
+
+header{
+  display: flex;
+  background-color: darkgoldenrod;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Myntra_home{
+  height: 35rem;
+  width: 45rem;
+}
+.logo_container{
+  margin-left: 4rem;
+}
+.Action_bar{
+  margin-right: 4rem;
+}
+.Nav_bar{
+  display: flex;
+  min-width: 500px;
+  justify-content: space-between;
+}
+.Nav_bar a{
+
+  color:#282c3f;
+  font-size: 14px;
+  letter-spacing: .3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+  .Nav_bar a sup{color:red;
+  font-size: 10px;}
+
+.Search_bar{
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
